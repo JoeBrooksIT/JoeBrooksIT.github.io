@@ -57,3 +57,42 @@ nav a {
 nav a:hover {
     background: #666;
 }
+
+section {
+    margin: 1em 0;
+    padding-top: 3em;
+    min-height: 20em;
+}
+section > p {
+    margin: 1em 0;
+}
+
+section ul {
+    padding-left: 1.5em;
+}
+
+#Work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+
+#Work article {
+    background: #ccc;
+    padding: 1em;
+}
+
+#Work article img {
+    width: 100%;
+    border: 1px solid #333;
+}
+
+footer {
+    margin-top:  2em;
+    margin-bottom: 1em;
+    background: #666;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
