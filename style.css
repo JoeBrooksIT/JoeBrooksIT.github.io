@@ -18,7 +18,7 @@ h1, h2, h3 {
 #aboutMe img {
     width: 25%;
     height: 25%;
-    border: 5px solid blue;
+    border: 5px solid black;
 }
 
 header,
@@ -49,7 +49,7 @@ nav {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    background: blue;
+    background: gray;
 }
 
 nav a {
@@ -59,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-    background: red;
+    background: black;
 }
 
 section {
@@ -83,7 +83,7 @@ section ul {
 }
 
 #Work article {
-    background: red;
+    background: gray;
     padding: 1em;
 }
 
@@ -91,13 +91,13 @@ section ul {
     width: 200px;
     height: 175px;
     margin: 0 1em;
-    border: 5px solid blue;
+    border: 5px solid black;
 }
 
 footer {
     margin-top:  2em;
     margin-bottom: 1em;
-    background: blue;
+    background: gray;
     color: white;
     padding: 1em 0;
     text-align: center;
